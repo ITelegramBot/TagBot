@@ -1,0 +1,2 @@
+pymongo==3.6.0
+python-telegram-bot==9.0.0
