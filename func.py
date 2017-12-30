@@ -38,6 +38,7 @@ def listTag(bot, update, args):
     if len(args) == 0:
         update.message.reply_text(ur"请使用 /listtag { Tag名称 } 来使用", 
             reply_to_message_id=update.message.message_id)
+        return
     tag = "".join(args)
     replyText = u"显示 **{}** 的结果: \n\n".format(tag)
     index = 1
